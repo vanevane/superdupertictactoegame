@@ -60,11 +60,11 @@ GameBoard.prototype.setPosition = function(input, player){
 
 GameBoard.prototype.getCurrentPosition = function(input){
     try {
-        if(input == "")  throw "empty";
-        if(isNaN(input)) throw "not a number";
+        if(input == "")  throw ("empty");
+        if(isNaN(input)) throw ("not a number");
         //input = Number(input);
-        if(input < 1)   throw "too low, it should be greater or equal than 1";
-        if(input > 9)   throw "too high, it should be lower or equal than 9";
+        if(input < 1)   throw ("too low, it should be greater or equal than 1");
+        if(input > 9)   throw ("too high, it should be lower or equal than 9");
 
 
         var axis = this.mapTurn(input);

@@ -4,3 +4,4 @@
 var TicTacToeGame = require('./ticTacToe');
 
 var ttt = new TicTacToeGame();
+ttt.start();

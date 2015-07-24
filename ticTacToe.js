@@ -15,7 +15,7 @@ var TicTacToeGame = function()
     this.player2movements = []; // Stores the inputs for P2
 
     this.init();
-    this.start();
+    //this.start();
 };
 
 TicTacToeGame.prototype.init = function()
