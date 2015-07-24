@@ -6,7 +6,6 @@ var Player = function(name, value)
 {
     this.name = name;
     this.value = value;
-    //this.game = table;
 };
 
 module.exports = Player;
