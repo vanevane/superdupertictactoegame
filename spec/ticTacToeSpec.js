@@ -2,9 +2,7 @@
  * Created by HS on 18/07/2015.
  */
 
-var TicTacToeGame = require('./ticTacToe');
-//var GameBoard = require('./gameBoard');
-//var Player = require('./player');
+var TicTacToeGame = require('./../app/ticTacToe');
 
 describe('TicTacToe', function(){
 
